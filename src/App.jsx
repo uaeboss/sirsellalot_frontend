@@ -2,6 +2,7 @@ import "./styles/App.css";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
 import Content from "./components/Content";
+import Banner1 from "./components/Banner1";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <Navigation />
           <Content />
           <Footer />
-          <div className="banner1"></div>
+          <Banner1 />
           <div className="banner2"></div>
         </div>
       </div>
