@@ -1,7 +1,7 @@
 const Banner1 = () => {
     return (
       <div className="banner1">
-        <p>Content</p>
+        <p>Banner 1</p>
       </div>
     );
   };
