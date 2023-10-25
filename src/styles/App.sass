@@ -22,3 +22,34 @@ a
     margin-left: 2rem
     &:hover
         color: #282c47
+
+.wrapper
+    width: 100vw
+    height: 100vh
+
+.container
+    display: grid
+    height: 100vh
+    grid-template-columns: 0.5fr 1.9fr 0.5fr
+    grid-template-rows: 0.5fr 2fr 0.5fr
+    gap: 0px 0px
+    grid-auto-flow: row
+    grid-template-areas: "navigation navigation navigation" "banner1 content banner2" "footer footer footer"
+
+.navigation
+    grid-area: navigation
+    border: 2px solid #168a56
+
+.content
+    grid-area: content
+    border: 2px solid #fff
+
+.footer
+    grid-area: footer
+    border: 2px solid #6d2d2d
+
+.banner1
+    grid-area: banner1
+
+.banner2
+    grid-area: banner2

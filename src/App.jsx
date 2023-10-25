@@ -1,12 +1,19 @@
-import './styles/App.css'
+import "./styles/App.css";
 
 function App() {
-
   return (
     <>
-    <p>Sir Sellalot!</p>
+      <div className="wrapper">
+        <div className="container">
+          <div className="navigation"></div>
+          <div className="content"></div>
+          <div className="footer"></div>
+          <div className="banner1"></div>
+          <div className="banner2"></div>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
