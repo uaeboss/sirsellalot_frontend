@@ -1,5 +1,9 @@
 const Navigation = () => {
-    return <p>Navigation</p>;
-  };
-  
-  export default Navigation;
+  return (
+    <div className="navigation">
+      <p>Navigation</p>
+    </div>
+  );
+};
+
+export default Navigation;
