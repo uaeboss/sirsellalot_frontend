@@ -19,7 +19,7 @@ img {
 
 a {
   text-decoration: none;
-  color: #282c47;
+  color: #A31621;
   margin-left: 2rem;
 }
 a:hover {
@@ -47,17 +47,17 @@ p {
 
 .navigation {
   grid-area: navigation;
-  border: 2px solid #168a56;
+  border: 2px solid #4E8098;
 }
 
 .content {
   grid-area: content;
-  border: 2px solid #fff;
+  border: 2px solid #FCF7F8;
 }
 
 .footer {
   grid-area: footer;
-  border: 2px solid #6d2d2d;
+  border: 2px solid #A31621;
 }
 
 .banner1 {
