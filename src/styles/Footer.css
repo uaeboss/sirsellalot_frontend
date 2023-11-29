@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #FCF7F8;
+  align-items: flex-start;
+  font-size: 2rem;
+}
+
+.footer_content {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  background-color: #90C2E7;
+  color: #4E8098;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_newsletter p {
+  color: #4E8098;
+}
+
+.footer_links ul {
+  list-style-type: none;
+}
+
+input {
+  height: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+}/*# sourceMappingURL=Footer.css.map */
