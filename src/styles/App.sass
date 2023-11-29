@@ -18,13 +18,8 @@ img
 
 a
     text-decoration: none
-    color: $main-red
     margin-left: 2rem
-    &:hover
-        color: #282c47
 
-p
-    color: #fff
 
 .wrapper
     width: 100vw
@@ -37,15 +32,13 @@ p
     grid-template-rows: 0.5fr 2fr 0.5fr
     gap: 0px 0px
     grid-auto-flow: row
-    grid-template-areas: "navigation navigation navigation" "banner1 content banner2" "footer footer footer"
+    grid-template-areas: ". navigation ." "banner1 content banner2" "footer footer footer"
 
 .navigation
     grid-area: navigation
-    border: 2px solid $main-petrol
 
 .content
     grid-area: content
-    border: 2px solid $main-white
 
 .footer
     grid-area: footer
@@ -53,6 +46,8 @@ p
 
 .banner1
     grid-area: banner1
+    border: 2px solid $main-petrol
 
 .banner2
     grid-area: banner2
+    border: 2px solid $main-petrol
