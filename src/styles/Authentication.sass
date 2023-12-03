@@ -1,0 +1,30 @@
+@import "Variables"
+@import "Mixins"
+
+.authentication
+    @include flex-center
+    align-items: center
+    height: 100%
+    
+
+.authentication-content
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: $main-light-blue 
+    height: 300px
+    width: 100%
+    max-width: 500px
+    border-radius: 15px
+
+.authentication-content button
+    border: none
+    width: 200px
+    padding: 8px
+    border-radius: 10px
+    background-color: $main-petrol
+    color: $main-white
+    font-weight: bold
+    &:hover
+        background-color: $main-white
+        color: $main-petrol
