@@ -1,0 +1,31 @@
+.authentication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.authentication-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #90C2E7;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+}
+
+.authentication-content button {
+  border: none;
+  width: 200px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #4E8098;
+  color: #FCF7F8;
+  font-weight: bold;
+}
+.authentication-content button:hover {
+  background-color: #FCF7F8;
+  color: #4E8098;
+}/*# sourceMappingURL=Authentication.css.map */

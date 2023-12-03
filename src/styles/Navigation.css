@@ -27,6 +27,7 @@ a:hover {
   color: #4E8098;
 }
 
-h1 {
-  color: #FCF7F8;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
 }/*# sourceMappingURL=Navigation.css.map */
