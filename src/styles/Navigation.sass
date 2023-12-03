@@ -1,13 +1,23 @@
+@import "Variables"
+@import "Mixins"
+
 @font-face
     font-family: "Poppins"
     src: url("assets/Poppins-Black.ttf")
       
 .navigation
-    background-color: $main-light-blue  
-    height: 60px
+    @include flex-center
+
+    
+
+.navigation-content
     display: flex
     justify-content: space-around
     align-items: center
+    background-color: $main-light-blue 
+    height: 60px
+    width: 100%
+    max-width: 1000px
 
 a
     text-decoration: none

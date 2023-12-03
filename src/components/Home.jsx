@@ -1,9 +1,10 @@
 import Search from "./Search";
 import Itemcard from "./Itemcard";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Search />
       <p>Home</p>
       <Itemcard />

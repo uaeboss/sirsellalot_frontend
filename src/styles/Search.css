@@ -1,9 +1,16 @@
 .search {
+  display: flex;
+  justify-content: center;
+}
+
+.search-content {
   background-color: #90C2E7;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .search-input {
