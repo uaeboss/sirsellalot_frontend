@@ -3,11 +3,18 @@
   src: url("assets/Poppins-Black.ttf");
 }
 .navigation {
-  background-color: #90C2E7;
-  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #90C2E7;
+  height: 60px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 a {
