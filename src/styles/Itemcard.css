@@ -5,6 +5,10 @@
   margin: 2rem;
   border-radius: 1rem;
 }
+.itemcard:hover {
+  scale: 1.1;
+  transition: 0.35s;
+}
 
 .itemcard_image {
   height: 70%;
