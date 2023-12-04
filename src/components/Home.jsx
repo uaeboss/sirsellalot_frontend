@@ -4,10 +4,12 @@ import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="home">
-      <Search />
-      <p>Home</p>
-      <Itemcard />
+    <div className="center">
+      <div className="home">
+        <Search />
+        <p>Home</p>
+        <Itemcard />
+      </div>
     </div>
   );
 };
