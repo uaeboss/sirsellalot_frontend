@@ -23,6 +23,7 @@
   border-radius: 10px;
   background-color: #4E8098;
   color: #FCF7F8;
+  font-size: 15px;
   font-weight: bold;
 }
 .authentication-content button:hover {
