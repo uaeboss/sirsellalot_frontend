@@ -1,5 +1,5 @@
 .itemcard {
-  border: 3px solid #4E8098;
+  border: 3px solid #90C2E7;
   width: 20%;
   height: 250px;
   margin: 2rem;
@@ -7,15 +7,16 @@
 }
 
 .itemcard_image {
-  border: 1px solid black;
   height: 70%;
   border-top-right-radius: 0.8rem;
   border-top-left-radius: 0.8rem;
+  padding: 1rem;
 }
 
 .itemcard_details {
-  border: 1px solid black;
   height: 30%;
+  background-color: #90C2E7;
   border-bottom-left-radius: 0.8rem;
   border-bottom-right-radius: 0.8rem;
+  padding: 1rem;
 }/*# sourceMappingURL=Itemcard.css.map */
